@@ -1,0 +1,34 @@
+*{
+    border: 0; /* Borda do elemento -> Zeramos*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+
+    /* ----- Cores ----- */
+
+    --colors-primary: #B0CB1F;
+    --colors-primary-2: #b1cb1fd3;
+    --colors-secundarys-1: #FFFFFF;
+    --colors-secundarys-2: #333231;
+
+    --font-size-h1: 60px; /* Variável tamanho da fonte */
+    --font-size-h2: 48px; /* Variável tamanho da fonte */
+    --font-size-h3: 40px; /* Variável tamanho da fonte */
+    --font-size-h4: 25px; /* Variável tamanho da fonte */
+    --font-size-body: 16px; /* Variável tamanho da fonte */
+    --font-size-button: 16px; /* Variável tamanho da fonte */
+
+    /* ----- WEIGHT ----- */
+    
+    --font-weight-h1: 700; /* Variável Espessura da Fonte */
+    --font-weight-h2: 700; /* Variável Espessura da Fonte */
+    --font-weight-h3: 700; /* Variável Espessura da Fonte */
+    --font-weight-h4: 700; /* Variável Espessura da Fonte */
+    --font-weight-body: 400; /* Variável Espessura da Fonte */
+    --font-weight-button: 500; /* Variável Espessura da Fonte */
+
+    --font-family: "Inter", sans-serif;
+}
