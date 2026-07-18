@@ -1,0 +1,35 @@
+@import url(./global.css);
+
+header{
+    display: flex;    
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px 0;
+    gap: 425px;
+    background-color: var(--colors-secondary-1);
+}
+
+.nav-header ul{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+
+.nav-header ul li a{
+    font-family: var(--font-family);
+    font-size: var(--font-size-body);
+    font-weight: var(--font-weight-body);
+    text-decoration: none;
+    color: var(--colors-secondary-2);
+}
+
+.btn-login{
+    padding: 12px 30px;
+    border-radius: 15px 3px 15px 3px;
+    font-family: var(--font-family);
+    font-size: var(--font-size-button);
+    font-weight: var(--font-weight-button);
+    text-decoration: none;
+    background-color: var(--colors-primary);
+    color: var(--colors-secondary-2);
+}
