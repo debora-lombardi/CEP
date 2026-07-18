@@ -11,8 +11,8 @@
 
     --colors-primary: #B0CB1F;
     --colors-primary-2: #b1cb1fd3;
-    --colors-secundarys-1: #FFFFFF;
-    --colors-secundarys-2: #333231;
+    --colors-secondary-1: #FFFFFF;
+    --colors-secondary-2: #333231;
 
     --font-size-h1: 60px; /* Variável tamanho da fonte */
     --font-size-h2: 48px; /* Variável tamanho da fonte */
@@ -22,7 +22,7 @@
     --font-size-button: 16px; /* Variável tamanho da fonte */
 
     /* ----- WEIGHT ----- */
-    
+
     --font-weight-h1: 700; /* Variável Espessura da Fonte */
     --font-weight-h2: 700; /* Variável Espessura da Fonte */
     --font-weight-h3: 700; /* Variável Espessura da Fonte */
