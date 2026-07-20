@@ -9,16 +9,28 @@
 
     /* ----- Cores ----- */
 
-    --colors-primary: #B0CB1F;
-    --colors-primary-2: #b1cb1fd3;
-    --colors-secondary-1: #FFFFFF;
-    --colors-secondary-2: #333231;
+    --colors-primary-green: #B0CB1F;
+    --colors-primary-green-2: rgba(176, 203, 31, 0.10);
+    --colors-secondary-withe: #FFFFFF;
+    --colors-secondary-black: #333231;
+    --colors-secondary-black-2: #000000;
+    --colors-gray: #5F6C72;
+    --colors-gray-2: #77878F;
+    --colors-gray-900: #191C1F;
+    --colors-produto-1: #B1B5B8;
+    --colors-produto-2: #E0E1E1;    
+    --colors-orange: #FA8232;
+    --colors-yellow: #EFD33D;
+    --colors-blue: #2DA5F3;
+
+    /* ----- Size ----- */
 
     --font-size-h1: 60px; /* Variável tamanho da fonte */
     --font-size-h2: 48px; /* Variável tamanho da fonte */
     --font-size-h3: 40px; /* Variável tamanho da fonte */
     --font-size-h4: 25px; /* Variável tamanho da fonte */
     --font-size-body: 16px; /* Variável tamanho da fonte */
+    --font-size-body-2: 14px; /* Variável tamanho da fonte */
     --font-size-button: 16px; /* Variável tamanho da fonte */
 
     /* ----- WEIGHT ----- */
@@ -28,7 +40,9 @@
     --font-weight-h3: 700; /* Variável Espessura da Fonte */
     --font-weight-h4: 700; /* Variável Espessura da Fonte */
     --font-weight-body: 400; /* Variável Espessura da Fonte */
+    --font-weight-body-2: 600; /* Variável Espessura da Fonte */
     --font-weight-button: 500; /* Variável Espessura da Fonte */
 
-    --font-family: "Inter", sans-serif;
+    --font-family-primary: "Inter", sans-serif;
+    --font-family-secondary: "Public Sans", sans-serif;
 }

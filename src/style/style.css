@@ -1,12 +1,14 @@
 @import url(./global.css);
 
+/* ---- Header ---- */
+
 header{
     display: flex;    
     justify-content: space-evenly;
     align-items: center;
     padding: 20px 0;
     gap: 425px;
-    background-color: var(--colors-secondary-1);
+    background-color: var(--colors-secondary-withe);
 }
 
 .nav-header ul{
@@ -16,20 +18,136 @@ header{
 }
 
 .nav-header ul li a{
-    font-family: var(--font-family);
+    font-family: var(--font-family-primary);
     font-size: var(--font-size-body);
     font-weight: var(--font-weight-body);
     text-decoration: none;
-    color: var(--colors-secondary-2);
+    color: var(--colors-secondary-black);
 }
 
-.btn-login{
+.container-btn{
     padding: 12px 30px;
     border-radius: 15px 3px 15px 3px;
-    font-family: var(--font-family);
+    font-family: var(--font-family-primary);
     font-size: var(--font-size-button);
     font-weight: var(--font-weight-button);
     text-decoration: none;
-    background-color: var(--colors-primary);
-    color: var(--colors-secondary-2);
+    background-color: var(--colors-primary-green);
+    color: var(--colors-secondary-black);
+}
+
+/* ---- Main ---- */
+
+main{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    padding-top: 60px;
+    padding-bottom: 31px;
+}
+
+.container-main{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;    
+}
+
+.avaliacao{
+    display: flex;
+    gap: 5px;
+}
+
+.qtd-estrelas{
+    font-family: var(--font-family-secondary);
+    font-size: var(--font-size-body-2);
+    font-weight: var(--font-weight-body-2);
+    color: var(--colors-gray-900);
+}
+
+.qtd-avaliacao{
+    font-family: var(--font-family-secondary);
+    font-size: var(--font-size-body-2);
+    font-weight: var(--font-weight-body);
+    color: var(--colors-gray);
+}
+
+.container-main h1{
+    font-family: var(--font-family-primary);
+    font-size: var(--font-size-body);
+    font-weight: var(--font-weight-body);
+    color: var( --colors-gray-900);
+    width: 499px;
+}
+
+.precos-produto{
+    display: flex;
+    gap: 12px;
+}
+
+.preco-desconto{
+    font-family: var(--font-family-primary);
+    font-size: var(--font-size-h4);
+    font-weight: var(--font-weight-h4);
+    color: var(--colors-blue);
+}
+
+.preco-original{
+    font-family: var(--font-family-primary);
+    font-size: var(--font-size-body);
+    text-decoration: line-through;
+    padding: 5.5px;
+    color: var(--colors-gray-2);
+}
+
+.porcentagem-desconto{
+    font-family: var(--font-family-primary);
+    font-size: var(--font-size-body);
+    font-weight: var(--font-weight-h4);
+    padding: 5px 10px;
+    border-radius: 2px;
+    background-color: var(--colors-yellow);
+    color: var(--colors-gray-900);
+}
+
+.container-cor{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.container-cor p{
+    font-family: var(--font-family-primary);
+    font-size: var(--font-size-body);
+    font-weight: var(--font-weight-body);
+}
+
+.tipo-cores{
+    display: flex;
+    align-items: center;
+    gap: 9px;    
+}
+
+.cor-formato{
+    width: 32px;
+    height: 32px;
+    border-radius: 50px;
+}
+
+.cor-1{
+    background-color: var(--colors-produto-1);
+}
+
+.cor-2{
+    background-color: var(--colors-produto-2);
+}
+
+.cor-1:hover, .cor-2:hover{
+    padding: 6px;
+    border: 2px solid var(--colors-orange);
+}
+
+.btn-carrinho{
+    display: flex;
+    justify-content: start;
+    width: 222px;
 }
