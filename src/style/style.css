@@ -153,7 +153,7 @@ main{
     width: 224px;  
 }
 
-/* ---- Section-info---- */
+/* ---- Section-info ---- */
 
 .section-info{
     display: flex;
@@ -173,7 +173,6 @@ main{
 
 .container-info{
     display: grid;
-    /* grid-template-columns: repeat(3, minmax(50px, 1fr)); */
     grid-template-columns: 249px 185px 249px;
     gap: 16px;
 }
@@ -203,4 +202,87 @@ main{
 .btn-enviar{
     width: 107px;
     grid-column: 1/3;
+}
+
+/* ---- Footer ---- */
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 323px;
+    padding: 60px;
+    background-color: var(--colors-secondary-withe);
+}
+
+.container-socials{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px; 
+}
+
+.copyright{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.copyright p{
+    font-family: var(--font-family-primary);
+    font-size: var(--font-size-body);
+    font-weight: var(--font-weight-body);
+    color: var(--colors-secondary-black);
+}
+
+.icon-socials{
+    display: flex;
+    gap: 16px;
+}
+
+.icon-social{
+    padding: 4.8px;
+    border-radius: 50px;
+    background-color: var(--colors-secondary-black);
+}
+
+.container-alternative{
+    display: flex;
+    gap: 60px;
+}
+
+.menu-cantact-address{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.menu-cantact-address h3{
+    font-family: var(--font-family-primary);
+    font-size: var(--font-size-h4);
+    font-weight: var(--font-weight-h4);
+    color: var(--colors-secondary-black-2);
+}
+
+.menu-cantact-address ul{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    list-style: none;
+}
+
+.menu-cantact-address ul li{
+    list-style: none;
+    font-family: var(--font-family-primary);
+    font-size: var(--font-size-body);
+    font-weight: var(--font-weight-body);
+    color: var(--colors-secondary-black-2);
+}
+
+.menu-cantact-address ul li a{
+    text-decoration: none; 
+    font-family: var(--font-family-primary);
+    font-size: var(--font-size-body);
+    font-weight: var(--font-weight-body);
+    color: var(--colors-secondary-black-2);
 }
