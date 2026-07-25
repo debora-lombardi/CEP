@@ -26,6 +26,7 @@ header{
 }
 
 .container-btn{
+    display: flex;
     padding: 12px 30px;
     border-radius: 15px 3px 15px 3px;
     font-family: var(--font-family-primary);
@@ -149,5 +150,57 @@ main{
 .btn-carrinho{
     display: flex;
     justify-content: start;
-    width: 222px;
+    width: 224px;  
+}
+
+/* ---- Section-info---- */
+
+.section-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    padding: 60px;
+    background-color: var(--colors-primary-green-2);
+}
+
+.section-info h2{
+    font-family: var(--font-family-primary);
+    font-size: var(--font-size-h2);
+    font-weight: var(--font-weight-h2);
+    color: var(--colors-secondary-black-2);
+}
+
+.container-info{
+    display: grid;
+    /* grid-template-columns: repeat(3, minmax(50px, 1fr)); */
+    grid-template-columns: 249px 185px 249px;
+    gap: 16px;
+}
+
+.Informacoes{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    font-family: var(--font-family-primary);
+    font-size: 16px;
+    font-weight: var(--font-weight-body);
+    color: var(--colors-secondary-black-2);
+}
+
+.entrada-info{    
+    border: 1px solid var(--colors-secondary-black-2);
+    background-color: transparent;
+    border-radius: 5px;
+    height: 41px;
+}
+
+.tamanho-249{
+    width: 249px;
+    
+}
+
+.btn-enviar{
+    width: 107px;
+    grid-column: 1/3;
 }
