@@ -194,6 +194,10 @@ main{
     height: 41px;
 }
 
+.Informacoes input{
+    text-align: start;
+}
+
 .tamanho-249{
     width: 249px;
     
@@ -257,7 +261,7 @@ footer{
     gap: 15px;
 }
 
-.menu-cantact-address h3{
+.menu-cantact-address h2{
     font-family: var(--font-family-primary);
     font-size: var(--font-size-h4);
     font-weight: var(--font-weight-h4);
